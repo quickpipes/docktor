@@ -28,7 +28,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: ${{ env.REGISTRY }}/docker-net-tools
+          images: ${{ env.REGISTRY }}/docktor
           tags: |
             type=ref,event=branch
             type=sha
