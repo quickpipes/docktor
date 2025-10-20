@@ -10,6 +10,7 @@ RUN apk add --no-cache \
   curl \
   iproute2 \
   iputils \
+  jq \
   net-tools \
   netcat-openbsd \
   openssh \
